@@ -9,7 +9,10 @@ import 'package:pokemon_app/service/retrofit/api_client.dart';
 class Home extends StatefulWidget {
   static const String routeName = 'home';
 
-   
+  const Home({Key? key}) : super(key: key);
+
+  @override
+  _HomeState createState() => _HomeState();
 }
 
 class _HomeState extends State<Home> {
